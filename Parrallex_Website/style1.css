@@ -1,0 +1,96 @@
+html
+,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;           
+}
+
+
+.pimg1{
+   background-image: url(image1.png);
+   min-height: 100%;
+   background-position: center;
+   background-size: cover;  
+   background-repeat: no-repeat;
+   position: relative;
+   background-attachment: fixed;
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width :100%;
+    font-size: 30px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+
+.textbg{
+    background-color: black;
+    padding: 16px 16px;
+    color: white;
+}
+
+.sect2{
+        background-attachment: fixed;
+        background-image: url(image2.png);
+        min-height: 450px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+.areatext{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+        font-size: 33px;
+        letter-spacing: 8px;
+        text-transform:uppercase;
+}
+.areatextbg{
+    background-color: transparent;
+    padding: 12px 12px;
+    color: white;
+}
+
+.sect3{
+    background-image: url(image3.png);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+}
+
+html,body{
+    margin:0;
+    padding :0;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: "lato",sans-serif;
+    color: #666;
+    height :100%;
+    line-height: 1.8em;
+}
+
+.sectlight{
+    text-align: center;
+    padding: 30px 70px;
+    background-color: rgb(241, 236, 236);
+}
+.sectdark{
+    text-align: center;
+    background-color: #1f2225;
+    color: #ddd;
+    padding: 20px 70px ;
+}

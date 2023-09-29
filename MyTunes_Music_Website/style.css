@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* making color codes variables like */
+
+:root{
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600:#1b0058;
+    --red600: #dc0000;
+    --body:#f9f6ff;
+    max-width: 1800px;
+}
+
+html,body{
+    font-family: "lato",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth; 
+}
+
+/* Navigation section */
+header{
+    background-color: var(--purple300);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 7px 7px 7px rgba(0,0,0, 0.7) ;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    
+}
+nav ul{
+    display: flex;
+    gap: 24px;
+    margin-top: 15px;
+}
+nav ul li{
+    transition: 0.2s ease-in-out;
+}
+nav ul li:hover{
+    border-bottom: 3px solid white;
+    transition: 0.2s ease-in-out;
+}
+
+/* main section */
+.hero_sect{
+    background-image: url(images/hero_image.png);
+    min-height: 100vh;
+    padding: 100px;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero_container h1{
+    font-size: 90px;
+    margin: 15px;
+}
+.hero_container h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* music section */
+.music_container{
+    background-color: var(--purple500);
+    padding-top: 20px;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.music_container h4{
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.ipad_img{
+    margin-top: -390px;
+    position: relative;
+    top: 400px;
+}
+button{
+    background-color: var(--red600);
+    padding: 10px 12px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
+}
+
+/* about section */
+.about_container{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about_container p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.sec_btn{
+    background-color: var(--purple300);
+}
+
+/* video section */
+.video_sect{
+    background-image: url(images/video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+}
+.video_container{
+    padding-top: 230px;
+    padding-left: 170px;
+    padding-right: 170px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+    gap: 50px;
+}
+
+/* gift section */
+.card_sect{
+    display: flex;
+    margin-top: 120px;
+    gap: 60px;
+    padding: 100px;    
+}
+.third_btn button{
+    background-color:  var(--purple300);
+    margin-top: 20px;
+}
+.gift_content p{
+    margin-top: 20px;
+    
+}
+
+/* Upper footer Section */
+.upper_footer{
+    color: white;
+    background-color: var(--purple600);
+    padding: 24px;
+}
+.footer_container{
+    display: flex;
+    gap: 75px;
+    justify-content:center ;   
+    padding-top: 50px;
+}
+.footer_container hr{
+    margin-bottom:  30px;
+}
+footer{
+    background-color: var(--purple300);
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
